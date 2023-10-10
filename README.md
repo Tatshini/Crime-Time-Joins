@@ -26,6 +26,13 @@ In pgadmin, go to Tools->Query Tools. Click on the open file icon, open the join
 
 Run the sql file opened and you are all set!
 
+You should see the step by step results of relational in the following tables:
+first_last_arrival
+clothes_colors_pair
+green_times_earrings_match
+
+The culprit is revealed in the table culprit_revealed.
+
 ## Execution
 
 To see a few examples of relational joins, see our previous example: [python relational_joins.py](https://github.com/Tatshini/Relational-Joins-Explained). 
