@@ -8,14 +8,23 @@ The idea is to use several pieces of evidence hidden in separate tables to find 
 ## Pre-requisites
 
 You should have python and pip, both version 3 installed in your system.
-You should have postgresql installed. Make sure an instance is running in the background.
+You should have postgresql version 14.5 and [pgadmin](https://www.pgadmin.org/download/) version 15.3 installed. Make sure an instance is running in the background.
 No data is required, all of the data is created in the .sql file.
 
 ## Setup
 
 Run the following command on terminal: pip install psycopg
 
-Clone this repository and update the configuration values in user_config.py file
+Clone this repository
+
+In pgadmin, go to Tools->Query Tools. Click on the open file icon, open the create_database.sql file from this repository and execute the sql file opened. 
+
+In pgadmin, go to Tools->PSQL Tools. Run the following command: 
+\c joins_mystery_proj;
+
+In pgadmin, go to Tools->Query Tools. Click on the open file icon, open the joins_crime_project.sql file from this repository.
+
+Run the sql file opened and you are all set!
 
 ## Execution
 

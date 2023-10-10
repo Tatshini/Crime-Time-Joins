@@ -1,0 +1,1 @@
+CREATE DATABASE joins_mystery_proj;
