@@ -7,13 +7,10 @@ The idea is to use several pieces of evidence hidden in separate tables to find 
 
 ## Pre-requisites
 
-You should have python and pip, both version 3 installed in your system.
 You should have postgresql version 14.5 and [pgadmin](https://www.pgadmin.org/download/) version 15.3 installed. Make sure an instance is running in the background.
 No data is required, all of the data is created in the .sql file.
 
 ## Setup
-
-Run the following command on terminal: pip install psycopg
 
 Clone this repository
 
