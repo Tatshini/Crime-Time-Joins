@@ -19,7 +19,7 @@ Clone this repository and update the configuration values in user_config.py file
 
 ## Execution
 
-To see a few examples of relational joins, see our previous example: [python relational_joins.py](https://github.com/Tatshini/Relational-Joins-Explained)
+To see a few examples of relational joins, see our previous example: [python relational_joins.py](https://github.com/Tatshini/Relational-Joins-Explained). 
 Otherwise, follow the joins in the .sql file to combine data on our suspects and filter them using our pieces of evidence.
 By the end of all the queries, we'll have narrowed in on the criminal by joining tables of information. 
 
